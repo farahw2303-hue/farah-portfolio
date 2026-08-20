@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Job Market Data ETL Pipeline | Farah Wahidah</title>
+
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+    <header>
+
+        <nav class="navbar">
+
+            <a href="../index.html#home" class="logo">
+                Farah Wahidah
+            </a>
+
+            <ul class="nav-links">
+
+                <li><a href="../index.html#home">Home</a></li>
+                <li><a href="../index.html#about">About</a></li>
+                <li><a href="../index.html#experience">Experience</a></li>
+                <li><a href="../index.html#projects">Projects</a></li>
+                <li><a href="../index.html#skills">Skills</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <main class="project-detail-page">
+
+
+        <!-- =========================
+             BACK BUTTON
+        ========================== -->
+        <a
+            href="../index.html#projects"
+            class="back-project"
+        >
+            ← Back to Projects
+        </a>
+
+
+        <!-- =========================
+             PROJECT HERO
+        ========================== -->
+        <section class="project-detail-hero">
+
+            <div class="project-detail-intro">
+
+                <p class="section-label">
+                    DATA ENGINEERING
+                </p>
+
+                <div style="margin: 15px 0;">
+
+                    <span class="project-status completed">
+                        Completed
+                    </span>
+
+                </div>
+
+
+                <h1>
+                    Job Market Data ETL Pipeline
+                </h1>
+
+
+                <p class="project-detail-description">
+
+                    An end-to-end data engineering project developed
+                    to extract, clean, transform, validate and load
+                    real-world job-posting data into a SQLite database
+                    for SQL-based analysis.
+
+                </p>
+
+
+                <div class="project-tech detail-tech">
+
+                    <span>Python</span>
+                    <span>Pandas</span>
+                    <span>SQL</span>
+                    <span>SQLite</span>
+                    <span>ETL</span>
+
+                </div>
+
+
+                <div class="project-detail-buttons">
+
+                    <a
+                        href="https://github.com/farahw2303-hue/job-market-etl-pipeline"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn primary-btn"
+                    >
+                        View GitHub Repository
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- MAIN IMAGE -->
+            <div class="project-detail-main-image">
+
+                <img
+                    src="../images/projects/job-market-etl.png"
+                    alt="Job Market Data ETL Pipeline Architecture"
+                >
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PROJECT OVERVIEW
+        ========================== -->
+        <section class="project-detail-section">
+
+            <div class="project-detail-grid">
+
+                <div>
+
+                    <p class="section-label">
+                        PROJECT OVERVIEW
+                    </p>
+
+                    <h2>
+                        About the Project
+                    </h2>
+
+                </div>
+
+
+                <div class="project-detail-text">
+
+                    <p>
+
+                        The
+                        <strong>Job Market Data ETL Pipeline</strong>
+                        is a data engineering project built using a
+                        real-world job-posting dataset sourced from Kaggle.
+
+                    </p>
+
+                    <p>
+
+                        The original dataset contained
+                        <strong>19,649 job-posting records</strong>
+                        across six fields including job titles,
+                        company names, experience requirements,
+                        package information, locations and skills.
+
+                    </p>
+
+                    <p>
+
+                        The project implements a complete
+                        <strong>Extract, Transform and Load workflow</strong>
+                        using Python and Pandas.
+
+                        Raw records are inspected, cleaned,
+                        transformed and validated before being loaded
+                        into a structured SQLite database.
+
+                    </p>
+
+                    <p>
+
+                        The completed pipeline produced
+                        <strong>19,521 cleaned records and 23 transformed
+                        columns</strong>, which were then analysed using
+                        SQL to identify patterns in skills demand,
+                        hiring locations, companies, experience requirements
+                        and remote opportunities.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             ETL PROCESS
+        ========================== -->
+        <section class="project-detail-section soft-project-section">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    ETL WORKFLOW
+                </p>
+
+                <h2>
+                    Pipeline Process
+                </h2>
+
+                <div class="heading-line"></div>
+
+            </div>
+
+
+            <div class="project-feature-grid">
+
+
+                <!-- EXTRACT -->
+                <div class="project-feature-card">
+
+                    <h3>
+                        1. Extract
+                    </h3>
+
+                    <p>
+
+                        Reads the raw Kaggle CSV containing
+                        19,649 job-posting records and validates
+                        the expected dataset structure before
+                        processing begins.
+
+                    </p>
+
+                </div>
+
+
+                <!-- TRANSFORM -->
+                <div class="project-feature-card">
+
+                    <h3>
+                        2. Transform
+                    </h3>
+
+                    <p>
+
+                        Cleans missing values, removes duplicates,
+                        standardizes column names, parses experience
+                        requirements and creates new analytical fields.
+
+                    </p>
+
+                </div>
+
+
+                <!-- LOAD -->
+                <div class="project-feature-card">
+
+                    <h3>
+                        3. Load
+                    </h3>
+
+                    <p>
+
+                        Loads 19,521 cleaned records into a SQLite
+                        database and creates indexes for commonly
+                        queried fields such as job ID, title,
+                        company and location.
+
+                    </p>
+
+                </div>
+
+
+                <!-- ANALYSIS -->
+                <div class="project-feature-card">
+
+                    <h3>
+                        4. SQL Analysis
+                    </h3>
+
+                    <p>
+
+                        Executes analytical SQL queries to explore
+                        technical skill demand, hiring locations,
+                        companies, experience requirements,
+                        remote opportunities and package disclosure.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             DATA QUALITY
+        ========================== -->
+        <section class="project-detail-section">
+
+            <div class="project-detail-grid">
+
+                <div>
+
+                    <p class="section-label">
+                        DATA QUALITY
+                    </p>
+
+                    <h2>
+                        Cleaning & Transformation
+                    </h2>
+
+                </div>
+
+
+                <div class="project-detail-text">
+
+                    <ul class="project-learning-list">
+
+                        <li>
+                            Identified missing values across job titles,
+                            company names, experience, package, locations
+                            and skills.
+                        </li>
+
+                        <li>
+                            Removed 3 exact duplicate records.
+                        </li>
+
+                        <li>
+                            Removed records missing essential job-title
+                            or company information.
+                        </li>
+
+                        <li>
+                            Converted original column names into
+                            consistent snake_case naming.
+                        </li>
+
+                        <li>
+                            Parsed experience ranges into minimum
+                            and maximum years.
+                        </li>
+
+                        <li>
+                            Extracted primary locations from
+                            multi-location job postings.
+                        </li>
+
+                        <li>
+                            Created technology-skill indicators for
+                            Python, SQL, Power BI, Excel, Tableau,
+                            Machine Learning and ETL.
+                        </li>
+
+                        <li>
+                            Added validation checks to ensure the number
+                            of records loaded into SQLite matched the
+                            transformed dataset.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PIPELINE RESULTS
+        ========================== -->
+        <section class="project-detail-section soft-project-section">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    PIPELINE RESULTS
+                </p>
+
+                <h2>
+                    Processing Summary
+                </h2>
+
+                <div class="heading-line"></div>
+
+            </div>
+
+
+            <div class="project-feature-grid">
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        19,649
+                    </h3>
+
+                    <p>
+                        Raw job-posting records extracted from
+                        the source dataset.
+                    </p>
+
+                </div>
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        19,521
+                    </h3>
+
+                    <p>
+                        Cleaned and validated records loaded into
+                        the SQLite database.
+                    </p>
+
+                </div>
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        23
+                    </h3>
+
+                    <p>
+                        Final transformed columns available for
+                        structured analysis.
+                    </p>
+
+                </div>
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        128
+                    </h3>
+
+                    <p>
+                        Duplicate or unusable records removed during
+                        data-quality processing.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SQL FINDINGS
+        ========================== -->
+        <section class="project-detail-section">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    SQL ANALYSIS
+                </p>
+
+                <h2>
+                    Key Findings
+                </h2>
+
+                <div class="heading-line"></div>
+
+            </div>
+
+
+            <div class="project-feature-grid">
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        SQL
+                    </h3>
+
+                    <p>
+
+                        SQL was the most frequently detected selected
+                        technical skill, appearing in
+                        <strong>3,595 job postings</strong>.
+
+                    </p>
+
+                </div>
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        Machine Learning
+                    </h3>
+
+                    <p>
+
+                        Machine Learning appeared in
+                        <strong>2,691 job postings</strong>,
+                        making it another frequently identified skill.
+
+                    </p>
+
+                </div>
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        Python
+                    </h3>
+
+                    <p>
+
+                        Python was detected in
+                        <strong>1,618 job postings</strong>,
+                        while 743 postings contained both Python and SQL.
+
+                    </p>
+
+                </div>
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        Top Location
+                    </h3>
+
+                    <p>
+
+                        Bangalore/Bengaluru recorded the highest
+                        number of primary-location job postings
+                        with <strong>4,035 records</strong>.
+
+                    </p>
+
+                </div>
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        Remote Opportunities
+                    </h3>
+
+                    <p>
+
+                        The SQL analysis identified
+                        <strong>1,044 postings</strong>
+                        containing remote opportunities,
+                        representing approximately 5.35% of the dataset.
+
+                    </p>
+
+                </div>
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        Package Disclosure
+                    </h3>
+
+                    <p>
+
+                        Approximately
+                        <strong>91.07%</strong>
+                        of job postings did not disclose package information.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             TECHNICAL IMPLEMENTATION
+        ========================== -->
+        <section class="project-detail-section soft-project-section">
+
+            <div class="project-detail-grid">
+
+                <div>
+
+                    <p class="section-label">
+                        IMPLEMENTATION
+                    </p>
+
+                    <h2>
+                        Project Structure
+                    </h2>
+
+                </div>
+
+
+                <div class="project-detail-text">
+
+                    <ul class="project-learning-list">
+
+                        <li>
+                            <strong>extract.py</strong> — reads and validates
+                            the source dataset.
+                        </li>
+
+                        <li>
+                            <strong>transform.py</strong> — performs data
+                            cleaning, transformation and feature engineering.
+                        </li>
+
+                        <li>
+                            <strong>load.py</strong> — loads transformed
+                            records into SQLite and validates the database.
+                        </li>
+
+                        <li>
+                            <strong>pipeline.py</strong> — runs the complete
+                            ETL process using a single command.
+                        </li>
+
+                        <li>
+                            <strong>analysis.sql</strong> — contains SQL
+                            queries used to analyse the cleaned data.
+                        </li>
+
+                        <li>
+                            <strong>run_analysis.py</strong> — executes and
+                            displays the SQL analysis results.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             EXPERIENCE GAINED
+        ========================== -->
+        <section class="project-detail-section">
+
+            <div class="project-detail-grid">
+
+                <div>
+
+                    <p class="section-label">
+                        EXPERIENCE GAINED
+                    </p>
+
+                    <h2>
+                        What I Learned
+                    </h2>
+
+                </div>
+
+
+                <div class="project-detail-text">
+
+                    <ul class="project-learning-list">
+
+                        <li>
+                            Designing an end-to-end ETL workflow.
+                        </li>
+
+                        <li>
+                            Cleaning and transforming real-world data
+                            using Pandas.
+                        </li>
+
+                        <li>
+                            Applying data-quality validation before
+                            database loading.
+                        </li>
+
+                        <li>
+                            Designing structured SQLite database storage.
+                        </li>
+
+                        <li>
+                            Creating database indexes to support
+                            efficient querying.
+                        </li>
+
+                        <li>
+                            Writing SQL queries to answer practical
+                            analytical questions.
+                        </li>
+
+                        <li>
+                            Structuring a reproducible data-engineering
+                            project for GitHub.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             FINAL CTA
+        ========================== -->
+        <section class="project-detail-cta">
+
+            <h2>
+                Explore the Pipeline
+            </h2>
+
+            <p>
+
+                View the source code, ETL architecture,
+                SQL queries and complete project documentation on GitHub.
+
+            </p>
+
+
+            <div class="project-detail-buttons">
+
+                <a
+                    href="https://github.com/farahw2303-hue/job-market-etl-pipeline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn primary-btn"
+                >
+                    View GitHub Repository
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+    <footer class="footer">
+
+        <p>
+            © 2026 Farah Wahidah. Built with HTML, CSS & JavaScript.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
