@@ -3,19 +3,33 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Farah Wahidah | Portfolio</title>
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Portfolio of Farah Wahidah, a final-year Information Technology student majoring in Big Data Analytics with experience in data analytics, data engineering, business intelligence and digital solutions."
+    >
+
+    <title>
+        Farah Wahidah | Data Analytics Portfolio
+    </title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
+
 <body>
 
-    <!-- =========================
+
+    <!-- =====================================================
          NAVIGATION
-    ========================== -->
-    <header>
+    ====================================================== -->
+
+    <header class="site-header">
 
         <nav class="navbar">
 
@@ -23,19 +37,47 @@
                 Farah Wahidah
             </a>
 
-            <ul class="nav-links">
 
-                <li><a href="#home">Home</a></li>
+            <button
+                class="mobile-menu-btn"
+                id="mobileMenuBtn"
+                aria-label="Open navigation menu"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
 
-                <li><a href="#about">About</a></li>
 
-                <li><a href="#experience">Experience</a></li>
+            <ul class="nav-links" id="navLinks">
 
-                <li><a href="#projects">Projects</a></li>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
 
-                <li><a href="#skills">Skills</a></li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
 
-                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="#experience">Experience</a>
+                </li>
+
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+
+                <li>
+                    <a href="#activities">Activities</a>
+                </li>
+
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
 
             </ul>
 
@@ -44,1010 +86,1744 @@
     </header>
 
 
-    <!-- =========================
-         HOME
-    ========================== -->
-    <section id="home" class="home-section">
 
-        <div class="home-content">
-
-            <p class="intro-text">
-                Hello, I'm
-            </p>
-
-            <h1>
-                Farah Wahidah
-            </h1>
-
-            <h2>
-                Big Data Analytics • Data Analytics
-            </h2>
-
-            <p class="home-description">
-
-                Final-year Information Technology student majoring in
-                Big Data Analytics with a minor in Financial Management,
-                graduating in December 2026.
-
-                Skilled in Data Analytics, Data Visualization and Machine
-                Learning, with a strong foundation in applying data-driven
-                techniques to identify patterns, generate insights and
-                support decision-making.
-
-                Seeking graduate opportunities in Data Analytics,
-                Data Engineering, Business Intelligence and related fields,
-                with availability to commence full-time employment
-                by 18 January 2027.
-
-            </p>
-
-            <div class="home-buttons">
-
-                <a
-                    href="#projects"
-                    class="btn primary-btn"
-                >
-                    View My Work
-                </a>
-
-            </div>
-
-        </div>
+    <main>
 
 
-        <div class="home-image">
+        <!-- =====================================================
+             HOME
+        ====================================================== -->
 
-            <img
-                src="images/home-photo.jpg"
-                alt="Farah Wahidah"
-            >
-
-        </div>
-
-    </section>
+        <section class="hero-section" id="home">
 
 
-    <!-- =========================
-         ABOUT
-    ========================== -->
-    <section id="about" class="about-section">
+            <div class="hero-content reveal">
 
-        <div class="section-heading">
-
-            <p class="section-label">
-                GET TO KNOW ME
-            </p>
-
-            <h2>
-                About Me
-            </h2>
-
-            <div class="heading-line"></div>
-
-        </div>
+                <p class="eyebrow">
+                    BIG DATA ANALYTICS • DATA ANALYTICS • DATA ENGINEERING
+                </p>
 
 
-        <div class="about-container">
+                <h1 class="hero-name">
 
-            <!-- ABOUT PHOTO -->
-            <div class="about-image">
+                    <span class="hero-intro">
+                        Hi, I'm
+                    </span>
 
-                <img
-                    src="images/about-photo.jpg"
-                    alt="Farah Wahidah"
-                >
+                    <span class="hero-name-highlight">
+                        Farah Wahidah.
+                    </span>
 
-            </div>
+                </h1>
 
 
-            <!-- ABOUT CONTENT -->
-            <div class="about-content">
+                <h2>
+                    Turning data into meaningful insights
+                    and practical digital solutions.
+                </h2>
 
-                <h3>
-                    Turning data into meaningful stories and smarter decisions.
-                </h3>
 
-                <p>
+                <p class="hero-description">
 
-                    I am a soon-to-be Bachelor of Information Technology
-                    (Hons) graduate from Universiti Teknologi PETRONAS,
+                    Final-year Bachelor of Information Technology (Hons)
+                    student at Universiti Teknologi PETRONAS,
                     majoring in
                     <strong>Big Data Analytics</strong>
                     with a minor in
-                    <strong>Financial Management</strong>,
-                    graduating in December 2026.
-
-                </p>
-
-                <p>
-
-                    I am particularly interested in analysing data,
-                    identifying patterns, building interactive visualizations
-                    and applying machine learning to solve practical problems.
-
-                    I enjoy turning raw data into clear and meaningful insights
-                    that can support better decision-making.
-
-                    I am currently seeking graduate opportunities in
-                    Data Analytics, Business Intelligence, Data Engineering
-                    and related fields where I can apply and further develop
-                    these skills.
+                    <strong>Financial Management</strong>.
 
                 </p>
 
 
-                <!-- QUICK INFO -->
-                <div class="about-info">
+                <p class="hero-description">
 
-                    <div class="info-card">
+                    Former PETRONAS intern under
+                    <strong>
+                        Group Project Delivery,
+                        Project, Technology & HSSE
+                        (GPD, PT & HSSE)
+                    </strong>,
+                    with hands-on exposure to data analytics,
+                    workflow automation, dashboard development
+                    and process improvement.
 
-                        <span class="info-title">
-                            Major
-                        </span>
-
-                        <span class="info-value">
-                            Big Data Analytics
-                        </span>
-
-                    </div>
-
-
-                    <div class="info-card">
-
-                        <span class="info-title">
-                            Minor
-                        </span>
-
-                        <span class="info-value">
-                            Financial Management
-                        </span>
-
-                    </div>
+                </p>
 
 
-                    <div class="info-card">
+                <div class="hero-buttons">
 
-                        <span class="info-title">
-                            University
-                        </span>
-
-                        <span class="info-value">
-                            UTP
-                        </span>
-
-                    </div>
+                    <a
+                        href="#projects"
+                        class="btn primary-btn"
+                    >
+                        Explore My Work
+                    </a>
 
 
-                    <div class="info-card">
+                    <a
+                        href="https://www.linkedin.com/in/farahwahidah23/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn secondary-btn"
+                    >
+                        LinkedIn
+                    </a>
 
-                        <span class="info-title">
-                            Based In
-                        </span>
 
-                        <span class="info-value">
-                            Kuala Lumpur
-                        </span>
-
-                    </div>
+                    <a
+                        href="https://github.com/farahw2303-hue"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn secondary-btn"
+                    >
+                        GitHub
+                    </a>
 
                 </div>
 
-            </div>
 
-        </div>
+                <div class="availability">
 
-    </section>
+                    <span class="availability-dot"></span>
 
-
-    <!-- =========================
-         EXPERIENCE
-    ========================== -->
-    <section id="experience" class="experience-section">
-
-        <div class="section-heading">
-
-            <p class="section-label">
-                MY JOURNEY
-            </p>
-
-            <h2>
-                Experience
-            </h2>
-
-            <div class="heading-line"></div>
-
-        </div>
-
-
-        <div class="experience-showcase">
-
-            <!-- EXPERIENCE PHOTO -->
-            <div class="experience-photo">
-
-                <img
-                    src="images/petronas-experience.jpg"
-                    alt="PETRONAS Internship Experience"
-                >
-
-                <div class="experience-photo-caption">
-
-                    <span>
-                        PETRONAS
-                    </span>
-
-                    <p>
-                        Internship Experience • Kuala Lumpur
-                    </p>
+                    Expected graduation:
+                    <strong>December 2026</strong>
 
                 </div>
 
             </div>
 
 
-            <!-- EXPERIENCE DETAILS -->
-            <div class="experience-card">
 
-                <div class="experience-top">
+            <div class="hero-image reveal">
 
-                    <div>
-
-                        <p class="experience-date">
-                            September 2025 – April 2026
-                        </p>
-
-                        <h3>
-                            Cost Control Intern
-                        </h3>
-
-                        <h4>
-                            PETRONAS
-                        </h4>
-
-                        <p class="experience-department">
-
-                            Group Project Delivery, Project,
-                            Technology & HSSE
-                            (GPD, PT&HSSE) • Kuala Lumpur
-
-                        </p>
-
-                    </div>
-
-
-                    <div class="experience-badge">
-                        7-Month Internship
-                    </div>
-
-                </div>
-
-
-                <div class="experience-divider"></div>
-
-
-                <ul class="experience-list">
-
-                    <li>
-
-                        Developed an
-                        <strong>Internal Change Request system</strong>
-                        to improve tracking and reduce manual approval
-                        processes using Power Apps and SharePoint.
-
-                    </li>
-
-
-                    <li>
-
-                        Automated validation and approval workflows to
-                        reduce manual follow-ups using
-                        <strong>Power Automate</strong>
-                        notifications, reminders and escalation rules.
-
-                    </li>
-
-
-                    <li>
-
-                        Built a
-                        <strong>Power BI dashboard</strong>
-                        to support workflow monitoring and decision-making
-                        through request, processing-time and approval
-                        performance analysis.
-
-                    </li>
-
-                </ul>
-
-
-                <div class="experience-tools">
-
-                    <span>Power Apps</span>
-
-                    <span>Power Automate</span>
-
-                    <span>Power BI</span>
-
-                    <span>SharePoint</span>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- =========================
-         PROJECTS
-    ========================== -->
-    <section id="projects" class="projects-section">
-
-        <div class="section-heading">
-
-            <p class="section-label">
-                WHAT I'VE BUILT
-            </p>
-
-            <h2>
-                Featured Projects
-            </h2>
-
-            <div class="heading-line"></div>
-
-            <p class="section-description">
-
-                A selection of projects showcasing my experience in
-                data analytics, data visualization, machine learning,
-                web technologies and data engineering.
-
-            </p>
-
-        </div>
-
-
-        <div class="projects-grid">
-
-
-            <!-- =========================
-                 PROJECT 1
-                 POWER BI
-            ========================== -->
-            <article class="project-card">
-
-                <div class="project-image">
+                <div class="hero-image-frame">
 
                     <img
-                        src="images/projects/powerbi-dashboard.png"
-                        alt="Student Performance Analytics Dashboard"
+                        src="images/home-photo.jpg"
+                        alt="Farah Wahidah"
                     >
 
                 </div>
 
 
-                <div class="project-content">
+                <div class="hero-floating-card">
 
-                    <div class="project-top">
+                    <strong>
+                        Data + Technology
+                    </strong>
 
-                        <span class="project-category">
-                            Data Visualization
+                    <span>
+                        Analytics • Engineering • BI
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             ABOUT
+        ====================================================== -->
+
+        <section
+            class="section about-section"
+            id="about"
+        >
+
+
+            <div class="section-heading reveal">
+
+                <p class="section-label">
+                    ABOUT ME
+                </p>
+
+                <h2>
+                    Combining analytics,
+                    technology and business thinking.
+                </h2>
+
+                <div class="heading-line"></div>
+
+            </div>
+
+
+
+            <div class="about-layout">
+
+
+                <div class="about-image reveal">
+
+                    <img
+                        src="images/about-photo.jpg"
+                        alt="Farah Wahidah"
+                    >
+
+                </div>
+
+
+
+                <div class="about-content reveal">
+
+
+                    <p>
+
+                        I am a final-year Bachelor of Information Technology
+                        (Hons) student at Universiti Teknologi PETRONAS,
+                        majoring in
+                        <strong>Big Data Analytics</strong>
+                        with a minor in
+                        <strong>Financial Management</strong>.
+
+                    </p>
+
+
+                    <p>
+
+                        My interests are centred on
+                        <strong>
+                            Data Analytics,
+                            Data Engineering,
+                            Business Intelligence
+                            and data-driven digital solutions.
+                        </strong>
+
+                        I enjoy transforming raw data into structured
+                        information and developing practical solutions
+                        that support better decision-making.
+
+                    </p>
+
+
+                    <p>
+
+                        My academic and personal projects have allowed me
+                        to work with Power BI, Python, SQL, Pandas,
+                        SQLite, D3.js, machine learning and
+                        web technologies.
+
+                    </p>
+
+
+                    <p>
+
+                        Beyond technical work, I am actively involved
+                        in community engagement, university event
+                        management and competitive fencing,
+                        experiences that have strengthened my
+                        leadership, teamwork and adaptability.
+
+                    </p>
+
+
+
+                    <div class="about-highlights">
+
+
+                        <div>
+
+                            <strong>
+                                Big Data
+                            </strong>
+
+                            <span>
+                                Analytics Major
+                            </span>
+
+                        </div>
+
+
+                        <div>
+
+                            <strong>
+                                PETRONAS
+                            </strong>
+
+                            <span>
+                                Industry Experience
+                            </span>
+
+                        </div>
+
+
+                        <div>
+
+                            <strong>
+                                6
+                            </strong>
+
+                            <span>
+                                Showcased Projects
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             EXPERIENCE
+        ====================================================== -->
+
+        <section
+            class="section soft-section"
+            id="experience"
+        >
+
+
+            <div class="section-heading reveal">
+
+                <p class="section-label">
+                    EXPERIENCE
+                </p>
+
+                <h2>
+                    Industry experience
+                </h2>
+
+                <div class="heading-line"></div>
+
+            </div>
+
+
+
+            <div class="experience-layout">
+
+
+                <div class="experience-photo reveal">
+
+                    <img
+                        src="images/petronas-experience.jpg"
+                        alt="PETRONAS Internship Experience"
+                    >
+
+
+                    <div class="photo-caption">
+
+                        <strong>
+                            PETRONAS
+                        </strong>
+
+                        <span>
+                            Internship Experience • Kuala Lumpur
                         </span>
 
-                        <span class="project-status completed">
-                            Completed
+                    </div>
+
+                </div>
+
+
+
+                <article class="experience-card reveal">
+
+
+                    <div class="experience-card-top">
+
+
+                        <div>
+
+                            <p class="experience-company">
+                                PETRONAS
+                            </p>
+
+                            <h3>
+                                Cost Control Intern
+                            </h3>
+
+                            <p class="experience-department">
+
+                                Group Project Delivery,
+                                Project, Technology & HSSE
+                                (GPD, PT & HSSE)
+
+                            </p>
+
+                        </div>
+
+
+                        <span class="experience-date">
+                            Sep 2025 – Apr 2026
                         </span>
 
                     </div>
 
 
-                    <h3>
-                        Student Performance Analytics Dashboard
-                    </h3>
 
-
-                    <p>
-
-                        Developed a six-page Power BI dashboard to analyse
-                        6,607 student records across academic performance,
-                        attendance, study habits, motivation and academic
-                        support needs.
-
+                    <p class="experience-location">
+                        Kuala Lumpur, Malaysia
                     </p>
 
 
-                    <div class="project-tech">
+
+                    <ul class="experience-list">
+
+
+                        <li>
+
+                            Developed an
+                            <strong>
+                                Internal Change Request system
+                            </strong>
+                            using Power Apps and SharePoint
+                            to improve request tracking
+                            and reduce manual approval processes.
+
+                        </li>
+
+
+                        <li>
+
+                            Automated validation and approval
+                            workflows using
+                            <strong>Power Automate</strong>,
+                            including notifications,
+                            reminders and escalation rules.
+
+                        </li>
+
+
+                        <li>
+
+                            Built a
+                            <strong>
+                                Power BI monitoring dashboard
+                            </strong>
+                            to track request volume,
+                            processing time,
+                            approval rates
+                            and auto-rejections.
+
+                        </li>
+
+
+                        <li>
+
+                            Gained practical exposure to
+                            digital workflow improvement,
+                            data visualization
+                            and business process automation.
+
+                        </li>
+
+                    </ul>
+
+
+
+                    <div class="experience-tags">
 
                         <span>Power BI</span>
 
-                        <span>Power Query</span>
+                        <span>Power Apps</span>
 
-                        <span>DAX</span>
+                        <span>Power Automate</span>
 
-                    </div>
+                        <span>SharePoint</span>
 
-
-                    <div class="project-buttons">
-
-                        <!-- CASE STUDY -->
-                        <a
-                            href="projects/powerbi.html"
-                            class="project-btn primary-project-btn"
-                        >
-                            View Project
-                        </a>
-
-
-                        <!-- GITHUB -->
-                        <a
-                            href="https://github.com/farahw2303-hue/DV-Power-BI-Dashboard"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            class="project-btn outline-project-btn"
-                        >
-                            GitHub
-                        </a>
+                        <span>Workflow Automation</span>
 
                     </div>
 
-                </div>
+                </article>
 
-            </article>
+            </div>
 
-
-            <!-- =========================
-                 PROJECT 2
-                 RETAIL DASHBOARD
-            ========================== -->
-            <article class="project-card">
-
-                <div class="project-image">
-
-                    <img
-                        src="images/projects/retail-dashboard.png"
-                        alt="Interactive Retail Sales and Profit Performance Dashboard"
-                    >
-
-                </div>
+        </section>
 
 
-                <div class="project-content">
 
-                    <div class="project-top">
+        <!-- =====================================================
+             FEATURED PROJECTS
+        ====================================================== -->
+
+        <section
+            class="section"
+            id="projects"
+        >
+
+
+            <div class="section-heading reveal">
+
+                <p class="section-label">
+                    FEATURED PROJECTS
+                </p>
+
+                <h2>
+                    Selected technical work
+                </h2>
+
+                <p class="section-description">
+
+                    Projects covering business intelligence,
+                    data engineering,
+                    interactive visualization
+                    and machine learning.
+
+                </p>
+
+                <div class="heading-line"></div>
+
+            </div>
+
+
+
+            <div class="projects-grid">
+
+
+                <!-- =================================================
+                     POWER BI
+                ================================================== -->
+
+                <article class="project-card reveal">
+
+
+                    <div class="project-image">
+
+                        <img
+                            src="images/projects/powerbi-dashboard.png"
+                            alt="Student Performance Analytics Dashboard"
+                        >
 
                         <span class="project-category">
-                            Interactive Analytics
-                        </span>
-
-                        <span class="project-status completed">
-                            Completed
+                            Business Intelligence
                         </span>
 
                     </div>
 
 
-                    <h3>
-                        Interactive Retail Sales & Profit Performance Dashboard
-                    </h3>
+
+                    <div class="project-card-content">
 
 
-                    <p>
+                        <div class="project-card-heading">
 
-                        Built an interactive retail analytics dashboard
-                        to explore sales, profit and product performance
-                        through dynamic visualizations and business KPIs.
+                            <h3>
+                                Student Performance
+                                Analytics Dashboard
+                            </h3>
 
-                    </p>
+                            <span class="status-badge">
+                                Completed
+                            </span>
+
+                        </div>
 
 
-                    <div class="project-tech">
+                        <p>
 
-                        <span>HTML</span>
+                            Developed a six-page Power BI dashboard
+                            to analyse 6,607 student records across
+                            academic performance, attendance,
+                            study hours, motivation
+                            and support needs.
 
-                        <span>CSS</span>
+                        </p>
 
-                        <span>JavaScript</span>
 
-                        <span>D3.js</span>
+
+                        <div class="project-tech">
+
+                            <span>Power BI</span>
+                            <span>Power Query</span>
+                            <span>DAX</span>
+                            <span>Data Analytics</span>
+
+                        </div>
+
+
+
+                        <div class="project-buttons">
+
+
+                            <a
+                                href="projects/powerbi.html"
+                                class="btn small-btn primary-btn"
+                            >
+                                View Project
+                            </a>
+
+
+                            <a
+                                href="https://github.com/farahw2303-hue/DV-Power-BI-Dashboard"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="btn small-btn secondary-btn"
+                            >
+                                GitHub
+                            </a>
+
+                        </div>
 
                     </div>
 
+                </article>
 
-                    <div class="project-buttons">
 
-                        <!-- CASE STUDY -->
-                        <a
-                            href="projects/retail.html"
-                            class="project-btn primary-project-btn"
+
+                <!-- =================================================
+                     JOB MARKET ETL
+                ================================================== -->
+
+                <article class="project-card reveal">
+
+
+                    <div class="project-image">
+
+                        <img
+                            src="images/projects/job-market-etl.png"
+                            alt="Job Market Data ETL Pipeline"
                         >
-                            View Project
-                        </a>
-
-
-                        <!-- LIVE DEMO -->
-                        <a
-                            href="https://farahw2303-hue.github.io/Interactive-Retail-Sales-and-Profit-Performance-Dashboard/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            class="project-btn outline-project-btn"
-                        >
-                            Live Demo
-                        </a>
-
-
-                        <!-- GITHUB -->
-                        <a
-                            href="https://github.com/farahw2303-hue/Interactive-Retail-Sales-and-Profit-Performance-Dashboard"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            class="project-btn outline-project-btn"
-                        >
-                            GitHub
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </article>
-
-
-            <!-- =========================
-                 PROJECT 3
-                 PHISHING FYP
-            ========================== -->
-            <article class="project-card">
-
-                <div class="project-image">
-
-                    <img
-                        src="images/projects/phishing-system.png"
-                        alt="Phishing Email Detection System"
-                    >
-
-                </div>
-
-
-                <div class="project-content">
-
-                    <div class="project-top">
-
-                        <span class="project-category">
-                            Machine Learning
-                        </span>
-
-                        <span class="project-status progress">
-                            In Progress
-                        </span>
-
-                    </div>
-
-
-                    <h3>
-                        Final Year Project: Phishing Email Detection System
-                    </h3>
-
-
-                    <p>
-
-                        Developing a machine learning classification system
-                        to identify phishing and legitimate emails using
-                        extracted email characteristics and predictive
-                        modelling.
-
-                    </p>
-
-
-                    <div class="project-tech">
-
-                        <span>Python</span>
-
-                        <span>Machine Learning</span>
-
-                        <span>Classification</span>
-
-                    </div>
-
-
-                    <div class="project-buttons">
-
-                        <!-- CASE STUDY -->
-                        <a
-                            href="projects/phishing.html"
-                            class="project-btn primary-project-btn"
-                        >
-                            View Project
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </article>
-
-
-            <!-- =========================
-                 PROJECT 4
-                 JOB MARKET ETL
-            ========================== -->
-            <article class="project-card">
-
-                <div class="project-image">
-
-                    <img
-                        src="images/projects/job-market-etl.png"
-                        alt="Job Market Data ETL Pipeline"
-                    >
-
-                </div>
-
-
-                <div class="project-content">
-
-                    <div class="project-top">
 
                         <span class="project-category">
                             Data Engineering
                         </span>
 
-                        <span class="project-status completed">
-                            Completed
+                    </div>
+
+
+
+                    <div class="project-card-content">
+
+
+                        <div class="project-card-heading">
+
+                            <h3>
+                                Job Market Data
+                                ETL Pipeline
+                            </h3>
+
+                            <span class="status-badge">
+                                Completed
+                            </span>
+
+                        </div>
+
+
+                        <p>
+
+                            Built an end-to-end Python ETL pipeline
+                            to process 19,649 real-world
+                            job-posting records and load
+                            19,521 cleaned records into SQLite
+                            for SQL analysis.
+
+                        </p>
+
+
+
+                        <div class="project-tech">
+
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>SQL</span>
+                            <span>SQLite</span>
+                            <span>ETL</span>
+
+                        </div>
+
+
+
+                        <div class="project-buttons">
+
+
+                            <a
+                                href="projects/job-etl.html"
+                                class="btn small-btn primary-btn"
+                            >
+                                View Project
+                            </a>
+
+
+                            <a
+                                href="https://github.com/farahw2303-hue/job-market-etl-pipeline"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="btn small-btn secondary-btn"
+                            >
+                                GitHub
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- =================================================
+                     RETAIL DASHBOARD
+                ================================================== -->
+
+                <article class="project-card reveal">
+
+
+                    <div class="project-image">
+
+                        <img
+                            src="images/projects/retail-dashboard.png"
+                            alt="Interactive Retail Sales and Profit Performance Dashboard"
+                        >
+
+                        <span class="project-category">
+                            Data Visualization
                         </span>
 
                     </div>
 
 
+
+                    <div class="project-card-content">
+
+
+                        <div class="project-card-heading">
+
+                            <h3>
+                                Interactive Retail Sales
+                                & Profit Performance Dashboard
+                            </h3>
+
+                            <span class="status-badge">
+                                Completed
+                            </span>
+
+                        </div>
+
+
+                        <p>
+
+                            Developed an interactive web-based
+                            analytics dashboard to explore sales,
+                            profit, product performance
+                            and business KPIs using
+                            dynamic D3.js visualizations.
+
+                        </p>
+
+
+
+                        <div class="project-tech">
+
+                            <span>D3.js</span>
+                            <span>JavaScript</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+
+                        </div>
+
+
+
+                        <div class="project-buttons">
+
+
+                            <a
+                                href="projects/retail.html"
+                                class="btn small-btn primary-btn"
+                            >
+                                View Project
+                            </a>
+
+
+                            <a
+                                href="https://farahw2303-hue.github.io/Interactive-Retail-Sales-and-Profit-Performance-Dashboard/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="btn small-btn secondary-btn"
+                            >
+                                Live Demo
+                            </a>
+
+
+                            <a
+                                href="https://github.com/farahw2303-hue/Interactive-Retail-Sales-and-Profit-Performance-Dashboard"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="btn small-btn secondary-btn"
+                            >
+                                GitHub
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- =================================================
+                     PHISHING FYP
+                ================================================== -->
+
+                <article class="project-card reveal">
+
+
+                    <div class="project-image">
+
+                        <img
+                            src="images/projects/phishing-system.png"
+                            alt="Phishing Email Detection System"
+                        >
+
+                        <span class="project-category">
+                            Machine Learning
+                        </span>
+
+                    </div>
+
+
+
+                    <div class="project-card-content">
+
+
+                        <div class="project-card-heading">
+
+                            <h3>
+                                Phishing Email
+                                Detection System
+                            </h3>
+
+                            <span
+                                class="status-badge progress-badge"
+                            >
+                                In Progress
+                            </span>
+
+                        </div>
+
+
+                        <p>
+
+                            Developing a machine-learning solution
+                            to classify phishing and legitimate
+                            emails using preprocessing,
+                            feature preparation,
+                            classification
+                            and model evaluation.
+
+                        </p>
+
+
+
+                        <div class="project-tech">
+
+                            <span>Python</span>
+                            <span>Machine Learning</span>
+                            <span>Classification</span>
+
+                        </div>
+
+
+
+                        <div class="project-buttons">
+
+                            <a
+                                href="projects/phishing.html"
+                                class="btn small-btn primary-btn"
+                            >
+                                View Project
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             ADDITIONAL ACADEMIC PROJECTS
+        ====================================================== -->
+
+        <section class="section soft-section">
+
+
+            <div class="section-heading reveal">
+
+                <p class="section-label">
+                    ADDITIONAL ACADEMIC PROJECTS
+                </p>
+
+                <h2>
+                    Beyond data analytics
+                </h2>
+
+                <p class="section-description">
+
+                    Selected university projects demonstrating
+                    product strategy, business planning,
+                    networking and technical analysis.
+
+                </p>
+
+                <div class="heading-line"></div>
+
+            </div>
+
+
+
+            <div class="academic-grid">
+
+
+                <!-- =================================================
+                     CARBONLITE
+                ================================================== -->
+
+                <article class="academic-card reveal">
+
+
+                    <div class="academic-number">
+                        01
+                    </div>
+
+
+
+                    <div class="academic-content">
+
+
+                        <p class="academic-type">
+                            Technopreneurship Project
+                        </p>
+
+
+                        <h3>
+                            CarbonLite –
+                            Gamified Sustainability Platform
+                        </h3>
+
+
+                        <p class="academic-role">
+                            Role: Chief Executive Officer
+                        </p>
+
+
+                        <p>
+
+                            Led the conceptual development
+                            and business direction of CarbonLite,
+                            a gamified sustainability platform
+                            designed to encourage university
+                            students to adopt measurable
+                            eco-friendly behaviours.
+
+                        </p>
+
+
+                        <p>
+
+                            The concept integrates sustainability
+                            challenges, QR and photo-based
+                            verification, carbon-impact tracking,
+                            rewards, leaderboards
+                            and institutional analytics.
+
+                        </p>
+
+
+
+                        <div class="project-tech">
+
+                            <span>Product Strategy</span>
+
+                            <span>Business Analysis</span>
+
+                            <span>Gamification</span>
+
+                            <span>Sustainability</span>
+
+                            <span>Leadership</span>
+
+                        </div>
+
+
+
+                        <div class="project-buttons">
+
+
+                            <a
+                                href="projects/carbonlite.html"
+                                class="btn small-btn primary-btn"
+                            >
+                                View Project
+                            </a>
+
+
+                            <a
+                                href="https://youtu.be/uiIcXxdDB4A"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="btn small-btn secondary-btn"
+                            >
+                                Watch Demo
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- =================================================
+                     TCP/IP
+                ================================================== -->
+
+                <article class="academic-card reveal">
+
+
+                    <div class="academic-number">
+                        02
+                    </div>
+
+
+
+                    <div class="academic-content">
+
+
+                        <p class="academic-type">
+                            Data Communication & Network
+                        </p>
+
+
+                        <h3>
+                            TCP/IP Protocol
+                            & Network Traffic Analysis
+                        </h3>
+
+
+                        <p class="academic-role">
+                            Network Simulation & Wireshark Analysis
+                        </p>
+
+
+                        <p>
+
+                            Explored TCP/IP application-layer
+                            protocols through network simulation,
+                            configuration, connectivity testing
+                            and packet analysis.
+
+                        </p>
+
+
+                        <p>
+
+                            Configured and investigated HTTP,
+                            DNS, Telnet, SSH, FTP and TFTP
+                            environments and used Wireshark
+                            to examine protocol behaviour,
+                            packet exchanges
+                            and security differences.
+
+                        </p>
+
+
+
+                        <div class="project-tech">
+
+                            <span>Wireshark</span>
+
+                            <span>TCP/IP</span>
+
+                            <span>HTTP</span>
+
+                            <span>DNS</span>
+
+                            <span>SSH</span>
+
+                            <span>FTP</span>
+
+                        </div>
+
+
+
+                        <div class="project-buttons">
+
+
+                            <a
+                                href="projects/tcpip.html"
+                                class="btn small-btn primary-btn"
+                            >
+                                View Project
+                            </a>
+
+
+                            <a
+                                href="https://youtu.be/rhY1fLgDPtY"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="btn small-btn secondary-btn"
+                            >
+                                Watch Presentation
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             LEADERSHIP & ACTIVITIES
+        ====================================================== -->
+
+        <section
+            class="section"
+            id="activities"
+        >
+
+
+            <div class="section-heading reveal">
+
+                <p class="section-label">
+                    LEADERSHIP & ACTIVITIES
+                </p>
+
+                <h2>
+                    Beyond the classroom
+                </h2>
+
+                <p class="section-description">
+
+                    Leadership, community engagement
+                    and competitive experiences
+                    that have strengthened my communication,
+                    teamwork, adaptability
+                    and event-management skills.
+
+                </p>
+
+                <div class="heading-line"></div>
+
+            </div>
+
+
+
+            <div class="activity-preview-grid">
+
+
+                <!-- =================================================
+                     STEMGENUITY
+                ================================================== -->
+
+                <article class="activity-preview-card reveal">
+
+
+                    <div class="activity-preview-image">
+
+                        <img
+                            src="images/activities/mpu4.jpg"
+                            alt="STEMgenuity Cultivating Local Innovation"
+                        >
+
+                        <span class="activity-preview-category">
+                            Community Engagement
+                        </span>
+
+                    </div>
+
+
+
+                    <div class="activity-preview-content">
+
+
+                        <div class="activity-preview-heading">
+
+
+                            <div>
+
+                                <h3>
+                                    STEMgenuity:
+                                    Cultivating Local Innovation
+                                </h3>
+
+                                <p class="activity-preview-role">
+                                    Secretary I
+                                </p>
+
+                            </div>
+
+
+                            <span class="activity-preview-date">
+                                May 2025
+                            </span>
+
+                        </div>
+
+
+
+                        <p>
+
+                            A UTP community engagement initiative
+                            conducted at SK RPS Pos Kemar,
+                            Gerik to provide Orang Asli students
+                            with greater exposure to STEM
+                            through hands-on activities,
+                            interactive learning
+                            and higher-education awareness.
+
+                        </p>
+
+
+
+                        <div class="project-tech">
+
+                            <span>Leadership</span>
+
+                            <span>Community Engagement</span>
+
+                            <span>STEM Education</span>
+
+                            <span>Teamwork</span>
+
+                        </div>
+
+
+
+                        <div class="project-buttons">
+
+                            <a
+                                href="activities/stemgenuity.html"
+                                class="btn small-btn primary-btn"
+                            >
+                                View Experience
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- =================================================
+                     FENCING
+                ================================================== -->
+
+                <article class="activity-preview-card reveal">
+
+
+                    <div class="activity-preview-image">
+
+                        <img
+                            src="images/activities/utpfc2025.jpg"
+                            alt="UTP Fencing Championship 2025"
+                        >
+
+                        <span class="activity-preview-category">
+                            Sports Leadership
+                        </span>
+
+                    </div>
+
+
+
+                    <div class="activity-preview-content">
+
+
+                        <div class="activity-preview-heading">
+
+
+                            <div>
+
+                                <h3>
+                                    UTP Fencing Championship 2025
+                                </h3>
+
+                                <p class="activity-preview-role">
+
+                                    Head of Event Management
+                                    • Épée Competitor
+
+                                </p>
+
+                            </div>
+
+
+                            <span class="activity-preview-date">
+                                2025
+                            </span>
+
+                        </div>
+
+
+
+                        <p>
+
+                            Led event management for a student
+                            fencing competition organised by
+                            the UTP Fencing Club for eligible
+                            participants from across Malaysia,
+                            while also competing in
+                            Épée individual and team events.
+
+                        </p>
+
+
+
+                        <div class="project-tech">
+
+                            <span>Event Management</span>
+
+                            <span>Leadership</span>
+
+                            <span>Team Coordination</span>
+
+                            <span>Épée Fencing</span>
+
+                        </div>
+
+
+
+                        <div class="project-buttons">
+
+                            <a
+                                href="activities/fencing.html"
+                                class="btn small-btn primary-btn"
+                            >
+                                View Experience
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             SKILLS
+        ====================================================== -->
+
+        <section
+            class="section soft-section"
+            id="skills"
+        >
+
+
+            <div class="section-heading reveal">
+
+                <p class="section-label">
+                    TECHNICAL SKILLS
+                </p>
+
+                <h2>
+                    Tools & technologies
+                </h2>
+
+                <div class="heading-line"></div>
+
+            </div>
+
+
+
+            <div class="skills-grid">
+
+
+                <article class="skill-card reveal">
+
+                    <span class="skill-number">
+                        01
+                    </span>
+
                     <h3>
-                        Job Market Data ETL Pipeline
+                        Data Analytics
                     </h3>
 
-
                     <p>
-
-                        Built an end-to-end ETL pipeline to extract,
-                        clean, transform and validate 19,649 real-world
-                        job-posting records before loading 19,521 cleaned
-                        records into SQLite for SQL analysis.
-
+                        Python • SQL • Excel • Pandas
                     </p>
 
+                </article>
 
-                    <div class="project-tech">
 
-                        <span>Python</span>
 
-                        <span>Pandas</span>
+                <article class="skill-card reveal">
 
-                        <span>SQL</span>
+                    <span class="skill-number">
+                        02
+                    </span>
 
-                        <span>SQLite</span>
+                    <h3>
+                        Business Intelligence
+                    </h3>
 
-                        <span>ETL</span>
+                    <p>
+                        Power BI • Power Query • DAX
+                    </p>
+
+                </article>
+
+
+
+                <article class="skill-card reveal">
+
+                    <span class="skill-number">
+                        03
+                    </span>
+
+                    <h3>
+                        Data Engineering
+                    </h3>
+
+                    <p>
+                        ETL • SQLite • Data Cleaning • Transformation
+                    </p>
+
+                </article>
+
+
+
+                <article class="skill-card reveal">
+
+                    <span class="skill-number">
+                        04
+                    </span>
+
+                    <h3>
+                        Data Visualization
+                    </h3>
+
+                    <p>
+                        Power BI • D3.js • Plotly • Matplotlib
+                    </p>
+
+                </article>
+
+
+
+                <article class="skill-card reveal">
+
+                    <span class="skill-number">
+                        05
+                    </span>
+
+                    <h3>
+                        Programming
+                    </h3>
+
+                    <p>
+                        Python • Java • C++ • R • JavaScript
+                    </p>
+
+                </article>
+
+
+
+                <article class="skill-card reveal">
+
+                    <span class="skill-number">
+                        06
+                    </span>
+
+                    <h3>
+                        Web & Dashboard
+                    </h3>
+
+                    <p>
+                        HTML • CSS • JavaScript • Streamlit
+                    </p>
+
+                </article>
+
+
+
+                <article class="skill-card reveal">
+
+                    <span class="skill-number">
+                        07
+                    </span>
+
+                    <h3>
+                        Microsoft Platform
+                    </h3>
+
+                    <p>
+                        Power Apps • Power Automate • SharePoint
+                    </p>
+
+                </article>
+
+
+
+                <article class="skill-card reveal">
+
+                    <span class="skill-number">
+                        08
+                    </span>
+
+                    <h3>
+                        Development Tools
+                    </h3>
+
+                    <p>
+                        GitHub • VS Code • SQLite
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             ACHIEVEMENTS
+        ====================================================== -->
+
+        <section class="section achievements-section">
+
+
+            <div class="section-heading reveal">
+
+                <p class="section-label">
+                    ACHIEVEMENTS
+                </p>
+
+                <h2>
+                    Academic & extracurricular recognition
+                </h2>
+
+                <div class="heading-line"></div>
+
+            </div>
+
+
+
+            <div class="achievement-grid">
+
+
+                <article class="achievement-card reveal">
+
+                    <span class="achievement-icon">
+                        01
+                    </span>
+
+
+                    <div>
+
+                        <h3>
+                            Dean's List
+                        </h3>
+
+                        <p>
+
+                            Academic recognition during multiple
+                            semesters at Universiti Teknologi PETRONAS.
+
+                        </p>
 
                     </div>
 
-
-                    <div class="project-buttons">
-
-                        <!-- CASE STUDY -->
-                        <a
-                            href="projects/job-etl.html"
-                            class="project-btn primary-project-btn"
-                        >
-                            View Project
-                        </a>
+                </article>
 
 
-                        <!-- GITHUB -->
-                        <a
-                            href="https://github.com/farahw2303-hue/job-market-etl-pipeline"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            class="project-btn outline-project-btn"
-                        >
+
+                <article class="achievement-card reveal">
+
+                    <span class="achievement-icon">
+                        02
+                    </span>
+
+
+                    <div>
+
+                        <h3>
+                            Top 10 –
+                            UTP Fencing Championship 2024
+                        </h3>
+
+                        <p>
+
+                            Competitive fencing achievement
+                            representing university-level
+                            sporting participation.
+
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+
+                <article class="achievement-card reveal">
+
+                    <span class="achievement-icon">
+                        03
+                    </span>
+
+
+                    <div>
+
+                        <h3>
+                            Perak State Representative
+                        </h3>
+
+                        <p>
+
+                            Represented Perak in
+                            Piala Warisan Melaka 2024.
+
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             CONTACT
+        ====================================================== -->
+
+        <section
+            class="contact-section"
+            id="contact"
+        >
+
+
+            <div class="contact-card reveal">
+
+
+                <p class="section-label">
+                    GET IN TOUCH
+                </p>
+
+
+                <h2>
+                    Let's connect.
+                </h2>
+
+
+                <p>
+
+                    I am interested in graduate opportunities
+                    involving Data Analytics,
+                    Data Engineering,
+                    Business Intelligence
+                    and related technology roles.
+
+                </p>
+
+
+
+                <div class="contact-links">
+
+
+                    <a
+                        href="mailto:farahw2303@gmail.com"
+                        class="contact-link"
+                    >
+
+                        <span>
+                            Email
+                        </span>
+
+                        <strong>
+                            farahw2303@gmail.com
+                        </strong>
+
+                    </a>
+
+
+
+                    <a
+                        href="https://www.linkedin.com/in/farahwahidah23/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contact-link"
+                    >
+
+                        <span>
+                            LinkedIn
+                        </span>
+
+                        <strong>
+                            farahwahidah23
+                        </strong>
+
+                    </a>
+
+
+
+                    <a
+                        href="https://github.com/farahw2303-hue"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contact-link"
+                    >
+
+                        <span>
                             GitHub
-                        </a>
+                        </span>
 
-                    </div>
+                        <strong>
+                            farahw2303-hue
+                        </strong>
 
-                </div>
-
-            </article>
-
-
-        </div>
-
-    </section>
-
-
-    <!-- =========================
-         SKILLS
-    ========================== -->
-    <section id="skills" class="skills-section">
-
-        <div class="section-heading">
-
-            <p class="section-label">
-                MY TOOLKIT
-            </p>
-
-            <h2>
-                Skills & Technologies
-            </h2>
-
-            <div class="heading-line"></div>
-
-            <p class="section-description">
-
-                Technologies and tools I have used across data analytics,
-                data engineering, visualization, programming and
-                dashboard development.
-
-            </p>
-
-        </div>
-
-
-        <div class="skills-grid">
-
-
-            <!-- DATA ANALYTICS -->
-            <div class="skill-card">
-
-                <h3>
-                    Data Analytics
-                </h3>
-
-                <div class="skill-tags">
-
-                    <span>Python</span>
-
-                    <span>SQL</span>
-
-                    <span>Excel</span>
-
-                    <span>Pandas</span>
+                    </a>
 
                 </div>
 
             </div>
 
+        </section>
 
-            <!-- DATA VISUALIZATION -->
-            <div class="skill-card">
 
-                <h3>
-                    Data Visualization
-                </h3>
+    </main>
 
-                <div class="skill-tags">
 
-                    <span>Power BI</span>
 
-                    <span>D3.js</span>
-
-                    <span>Plotly</span>
-
-                </div>
-
-            </div>
-
-
-            <!-- DATA ENGINEERING -->
-            <div class="skill-card">
-
-                <h3>
-                    Data Engineering
-                </h3>
-
-                <div class="skill-tags">
-
-                    <span>ETL</span>
-
-                    <span>SQLite</span>
-
-                    <span>Data Cleaning</span>
-
-                    <span>Data Transformation</span>
-
-                </div>
-
-            </div>
-
-
-            <!-- DASHBOARD AND WEB -->
-            <div class="skill-card">
-
-                <h3>
-                    Dashboard & Web
-                </h3>
-
-                <div class="skill-tags">
-
-                    <span>Streamlit</span>
-
-                    <span>HTML</span>
-
-                    <span>CSS</span>
-
-                    <span>JavaScript</span>
-
-                </div>
-
-            </div>
-
-
-            <!-- PROGRAMMING -->
-            <div class="skill-card">
-
-                <h3>
-                    Programming
-                </h3>
-
-                <div class="skill-tags">
-
-                    <span>Python</span>
-
-                    <span>Java</span>
-
-                    <span>C++</span>
-
-                    <span>R</span>
-
-                </div>
-
-            </div>
-
-
-            <!-- TOOLS -->
-            <div class="skill-card">
-
-                <h3>
-                    Tools
-                </h3>
-
-                <div class="skill-tags">
-
-                    <span>GitHub</span>
-
-                    <span>VS Code</span>
-
-                </div>
-
-            </div>
-
-
-            <!-- MICROSOFT PLATFORM -->
-            <div class="skill-card">
-
-                <h3>
-                    Microsoft Platform
-                </h3>
-
-                <div class="skill-tags">
-
-                    <span>Power Apps</span>
-
-                    <span>Power Automate</span>
-
-                    <span>SharePoint</span>
-
-                    <span>Microsoft Word</span>
-
-                    <span>Excel</span>
-
-                </div>
-
-            </div>
-
-
-        </div>
-
-    </section>
-
-
-    <!-- =========================
-         CONTACT
-    ========================== -->
-    <section id="contact" class="contact-section">
-
-        <div class="section-heading">
-
-            <p class="section-label">
-                LET'S CONNECT
-            </p>
-
-            <h2>
-                Contact
-            </h2>
-
-            <div class="heading-line"></div>
-
-            <p class="section-description">
-
-                Feel free to connect with me for graduate opportunities,
-                collaborations or professional networking.
-
-            </p>
-
-        </div>
-
-
-        <div class="contact-links">
-
-
-            <!-- EMAIL -->
-            <a
-                href="mailto:farahw2303@gmail.com"
-                class="contact-card"
-            >
-
-                <span class="contact-label">
-                    Email
-                </span>
-
-                <span class="contact-value">
-                    farahw2303@gmail.com
-                </span>
-
-            </a>
-
-
-            <!-- LINKEDIN -->
-            <a
-                href="https://www.linkedin.com/in/farahwahidah23/"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="contact-card"
-            >
-
-                <span class="contact-label">
-                    LinkedIn
-                </span>
-
-                <span class="contact-value">
-                    farahwahidah23
-                </span>
-
-            </a>
-
-
-            <!-- GITHUB -->
-            <a
-                href="https://github.com/farahw2303-hue"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="contact-card"
-            >
-
-                <span class="contact-label">
-                    GitHub
-                </span>
-
-                <span class="contact-value">
-                    farahw2303-hue
-                </span>
-
-            </a>
-
-
-        </div>
-
-    </section>
-
-
-    <!-- =========================
+    <!-- =====================================================
          FOOTER
-    ========================== -->
+    ====================================================== -->
+
     <footer class="footer">
 
         <p>
-            © 2026 Farah Wahidah. Built with HTML, CSS & JavaScript.
+            © 2026 Farah Wahidah.
+            Built with HTML, CSS & JavaScript.
         </p>
 
     </footer>
 
 
+
     <script src="script.js"></script>
+
 
 </body>
 
